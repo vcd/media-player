@@ -16,9 +16,7 @@ html * {
 
 body {
   font-size: 100%;
-  font-family: "Ubuntu", sans-serif;
   color: #333;
-  background-color: #ebe9d7;
 }
 
 a {
@@ -240,7 +238,7 @@ xgallery
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 0.25em;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); */
 }
 .cd-gallery .cd-item-wrapper > li img {
   display: block;
@@ -283,8 +281,9 @@ xgallery
 }
 @media only screen and (min-width: 768px) {
   .cd-gallery > li {
-    width: 22%;
+    width: 46%;
     float: left;
+    background: red;
   }
   .cd-gallery > li:nth-of-type(2n) {
     margin-right: 4%;
